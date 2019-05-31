@@ -47,7 +47,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #84ccde;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -59,7 +59,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #84ccde;
     top: 9px;
 }
 
@@ -274,7 +274,7 @@ a:hover {
 }
 
 a.active {
-    color: #425BB5;
+    color: #84ccde;
 }
 
 
@@ -284,7 +284,7 @@ a.active {
 #home {
     background: url(../img/home-bg-3.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
 }
 
 .table-cell {
@@ -311,7 +311,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border: 10px solid #84ccde;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -478,7 +478,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: #84ccde;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -495,20 +495,20 @@ a.active {
     margin-bottom: 30px;
 }
 
-.portfolio_item .portfolio_item_hover {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: #425BB5;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    color: #333;
-}
+    .portfolio_item .portfolio_item_hover {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-color: #84ccde;
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        opacity: 0;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        color: #333;
+    }
 
 .portfolio_item .portfolio_item_hover .item_info {
     text-align: center;
@@ -536,7 +536,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #84ccde;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -577,11 +577,6 @@ a.active {
     display: inline-block;
     margin: 0 auto;
     text-align: center;
-}
-
-.portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 }
 
 .portfolio-padding {
